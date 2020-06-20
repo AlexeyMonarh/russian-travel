@@ -1,0 +1,15 @@
+.place__title {
+  /* width: 100%;
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px; */
+
+  display: flex;
+  color: #fff;
+  font-size: 72px;
+  line-height: 1.05;
+  font-weight: 900;
+  margin: 0;
+} 

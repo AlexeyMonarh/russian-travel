@@ -1,0 +1,11 @@
+.header__lang-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+ }
+
+.header__lang-link:first-child {
+  text-decoration-line: underline;
+ }
