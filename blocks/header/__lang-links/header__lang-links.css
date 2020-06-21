@@ -1,11 +1,14 @@
 .header__lang-links {
   display: flex;
   list-style: none;
+  align-items: center;
   margin: 0;
   padding: 0;
-  align-items: center;
+  margin: 14px 0 0;
  }
 
-.header__lang-link:first-child {
-  text-decoration-line: underline;
- }
+ @media screen and (max-width: 320px) {
+  .header__lang-links {
+   
+  } 
+}

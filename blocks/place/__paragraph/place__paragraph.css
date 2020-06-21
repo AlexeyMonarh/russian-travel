@@ -1,18 +1,16 @@
 .place__paragraph {
-  /* box-sizing: border-box;
-  width: 100%;
-  margin: 0;
-  margin-bottom: 24px;
-  grid-column-start: 2;
-  font-style: normal;
+  font-size: 18px;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 30px; */
+  line-height: 1.67;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 24px;
+  word-break: normal;
+}
 
-  font-size: 18px;
-font-weight: normal;
-line-height: 1.67;
-color: #fff;
-margin: 0;
-padding-bottom: 24px;
+@media screen and (max-width: 902px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+  }
 }

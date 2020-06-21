@@ -5,12 +5,21 @@
 
 .lead {
   max-width: 984px;
-  padding: 56px 0 0 0;
+  box-sizing: border-box;
+  padding: 56px 0 0;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 422px) {
   .lead {
-    padding: 48px 0 0 0;
+    max-width: 320px;
+    
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+   padding: 48px 0 0;
   }
 }

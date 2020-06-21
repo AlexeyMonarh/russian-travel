@@ -1,16 +1,24 @@
-@import url(../places/places.css);
-@import url(../places/p)
+@import url(../place/__title/place__title.css);
+@import url(../place/__website/place__website.css);
+@import url(../place/__url-heading/place__url-heading.css);
+@import url(../place/__link/place__link.css);
+@import url(../place/__image/place__image.css);
+@import url(../place/__paragraph/place__paragraph.css);
 
 .place {
-  /* width: 100%;
+  width: 100%;
+  margin-bottom: 80px;
   display: grid;
-  grid-template-columns: 2fr 2fr;
-  grid-template-rows: repeat(1, 2fr);
-  grid-row-gap: 48px;
-  grid-column-gap: 40px;
-  margin-top: 80px; */
+  grid-template-columns: calc(100%*460/984) calc(100%*484/984);
+  grid-template-rows: repeat(2, min-content);
+  grid-gap: 48px 40px;
+  box-sizing: border-box;
+}
 
-  max-width: 984px;
-  margin: 0 auto;
-  padding: 92px 48px;
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 0;
+    grid-gap: 32px;
+  }
 }

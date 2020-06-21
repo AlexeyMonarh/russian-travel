@@ -2,12 +2,11 @@
 @import url(../footer/__links/footer__links.css);
 @import url(../footer/__link/footer__link.css);
 @import url(../footer/__copyright/footer__copyright.css); 
+@import url(../footer/__link-stile/footer__link-stile.css);
 
 .footer {
   max-width: 100%;
-  height: auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 24px;
 }

@@ -5,7 +5,22 @@
 @import url(../cover/__subtitle/cover__subtitle.css);
 
 .cover {
- margin: 92px 0;
- box-sizing: border-box;
+  margin-bottom: 92px;
+  width: 100%;
+  min-width: 320px;
 }
 
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%)
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-bottom: 0;
+  }
+}
