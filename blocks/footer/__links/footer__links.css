@@ -10,11 +10,9 @@
   line-height: 1.12;
 }
 
-@media screen and (max-width: 320px) {
-  .footer {
-    flex-direction: column;
-    width: 184px;
-    height: auto;
-    flex-wrap: wrap;
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
+  .footer__links {
+    justify-content: center;
   }
 }

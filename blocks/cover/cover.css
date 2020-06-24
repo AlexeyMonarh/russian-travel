@@ -1,26 +1,8 @@
-@import url(../cover/__overlay/cover__overlay.css);
 @import url(../cover/__link/cover__link.css);
 @import url(../cover/__background/cover__background.css);
 @import url(../cover/__title/cover__title.css);
 @import url(../cover/__subtitle/cover__subtitle.css);
 
 .cover {
-  margin-bottom: 92px;
-  width: 100%;
-  min-width: 320px;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    width: 100vw;
-    margin-left: calc(-50vw + 50%)
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    max-width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    margin-bottom: 0;
-  }
+  
 }
